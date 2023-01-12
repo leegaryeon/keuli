@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .searchBox{
+            margin: 20px 0;
+        }
+        .listBox{
+            max-width: 100px;
+        }
+        .listnInner{
+            background-color: #dedede;
+            margin: 10px 5px;
+            padding: 4px;
+        }
+        .country{
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function filter(){
+            let search=document.getElementById("search").value.toLowerCase();//document=객체,getElementById("search")=search요소의 아이디 값 찾아내기
+            let listInner=document.getElementsByClassName("listInner");//getElementsByClassName=listInner이라는 개체에서 클래스값 찾아내고 이 변수에 넣기
+
+            for (let i=0;i<listInner.length;i++){
+                city=listInner[i].getElementsByClassName("city");
+                country=listInner[i].getElementsByClassName("country");
+                if (city[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
+                country[0].innerHTML.toLowerCase().indexOf(search) != -1
+                ) {
+                    listInner[i].style.display = "flex"
+                } else {
+                    listInner[i].style.display = "none"
+                }
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="searchBox">
+        <label>수도:<input type="text"id="search" onkeyup="filter()" placeholder="수도를 검색하세요."></label>
+    </div>
+    <div class="listBox">
+        <div class="listInner">
+            <span class="country">Australia</span>
+            <span class="city">Canberra</span>
+        </div>
+        <div class="listInner">
+            <span class="country">Argentina</span>
+            <span class="city">Buenos Aires</span>
+        </div>
+        <div class="listInner">
+            <span class="country">Austria</span>
+            <span class="city">Vienna</span>
+        </div>
+    </div>
+</body>
+</html>
