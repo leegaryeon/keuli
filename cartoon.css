@@ -1,0 +1,33 @@
+h1{
+    margin: 0;
+    padding: 10px;
+    padding-right: 0;
+    width: 215px;
+    font-size: 40px;
+    }
+    .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    }
+    .title{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border-bottom:5px solid black;
+    }
+    .icon{
+    width: 40px;
+    height: 40px;
+    }
+    #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    }
+    .image{
+        text-align: center;
+    }
+    strong{
+        font-size: 50px;
+    }
