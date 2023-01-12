@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .home_name{
+            font-size: 100px;
+        }
+        .icon{
+            width: 90px;
+            height: 90px;
+        }
+        .home_name{
+            border-bottom:5px solid black;
+        }
+        .searchBox{
+            float: right;
+        }
+        a{
+            text-decoration-line:none;
+            font-size: 40px;
+            color: black;
+        }
+    </style>
+    <script>
+        function filter(){
+            let search=document.getElementById("search").value.toLowerCase();
+            let listInner=document.getElementsByClassName("listInner");
+
+            for (let i=0;i<listInner.length;i++){
+                city=listInner[i].getElementsByClassName("city");
+                country=listInner[i].getElementsByClassName("country");
+                if (city[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
+                country[0].innerHTML.toLowerCase().indexOf(search) != -1
+                ) {
+                    listInner[i].style.display = "flex"
+                } else {
+                    listInner[i].style.display = "none"
+                }
+            }
+        }
+    </script>
+    <title>home</title>
+</head>
+<body>
+    <div class="home_name">webtoon</div>
+    <div class="searchBox">
+        <input type="text" id="search"onkeyup="filter()"placeholder="검색어를 입력하세요">
+        <input type="button" value="검색">
+    </div>
+    <div class="listInner">
+        <a href="list.html"><span class="country">람큐의 만화</span></a>
+        <span class="city">람큐</span>
+    </div>
+    <div class="listInner">
+        <a href="test2.html" class="country">test</a>
+        <span class="city">testid</span>
+    </div>
+</body>
+</html>
