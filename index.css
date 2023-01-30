@@ -1,0 +1,44 @@
+.home_name{
+    font-size: 100px;
+}
+.icon{
+    width: 90px;
+    height: 90px;
+}
+.home_name{
+    border-bottom:5px solid black;
+}
+.searchBox{
+    float: right;
+}
+.country{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+.city{
+    font-weight: bold;
+}
+.update{
+    text-align: right;
+}
+@media(max-width:800px){
+    .country{
+        font-size: 30px;
+        text-decoration: none;
+
+        font-weight: bold;
+    }
+    .city{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .home_name{
+        font-size: 55px;
+    }
+    .text{
+        margin-top: 9%;
+        text-align: left;
+    }
+}
