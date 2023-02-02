@@ -1,5 +1,6 @@
 .home_name{
     font-size: 100px;
+    font-weight: bold;
 }
 .icon{
     width: 90px;
@@ -12,16 +13,32 @@
     float: right;
 }
 .country{
-    text-decoration: none;
     font-size: 40px;
     color: black;
     font-weight: bold;
+}
+a{
+    text-decoration-line: none;
 }
 .city{
     font-weight: bold;
 }
 .update{
     text-align: right;
+}
+.kinds_img{
+    width: 35px;
+    height: 35px;
+}
+.kinds{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.listInner{
+    width: 53%;
 }
 @media(max-width:800px){
     .country{
