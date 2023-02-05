@@ -6,28 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"href="slide.css">
     <link rel="stylesheet"href="index.css">
-    <script>
-        function filter(){
-            let search=document.getElementById("search").value.toLowerCase();
-            let listInner=document.getElementsByClassName("listInner");
-
-            for (let i=0;i<listInner.length;i++){
-                city=listInner[i].getElementsByClassName("city");
-                country=listInner[i].getElementsByClassName("country");
-                if (city[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
-                country[0].innerHTML.toLowerCase().indexOf(search) != -1
-                ) {
-                    listInner[i].style.display = "flex"
-                } else {
-                    listInner[i].style.display = "none"
-                }
-            }
-        }
-    </script>
+    <script src="filter.js"></script>
     <title>home</title>
+    <style>
+
+    </style>
 </head>
 <body>
-    <div class="update"><a href="update.html"style="text-decoration-line: none; color: black;">업데이트 목록</a></div>
     <div class="home_name">webtoon</div>
     <div class="slide">
         <div class="slider_item"></div><!--이미지 크기가 스크린크기와 같다면 잘 움직인다.만약 그렇지안하면 버그가 날것-->
@@ -45,28 +30,38 @@
     <div class="text">
         <!--만화-->
         <div class="kinds">
-            <img src="kinds_img/3079132.png" class="kinds_img">
+            <img src="kinds_img/kinds_cartoon.png" class="kinds_img">
             <div class="style_1">만화</div>
         </div>
-        <div class="listInner"style="background-color: #ffa02f">
-            <a href="list.html"><span class="country">람큐의 만화</span></a>
-            <span class="city">람큐</span>
-        </div>
-        <div class="listInner" style="background-color: #ffb053;">
-            <a href="test2.html" class="country">test</a>
-            <span class="city">testid</span>
+        <div class="manga">
+            <div class="listInner">
+                <div class="background" style="background-color:#ffa02f;">
+                    <a href="list.html"><img src="profile_img/람큐의 프로필.png"class="id_img"></a>
+                    <div class="title"><a href="list.html">람큐의 만화</a></div>
+                    <div class="author"><a href="dev_title.html">람큐</a></div>
+                </div>
+            </div>
+            <div class="listInner">
+                <div class="background" style="background-color:#ffb053;">
+                    <a href="list.html"><img src="id/fkazb.png"class="id_img"></a>
+                    <div class="title"><a href="list.html">제목제목제목</a></div>
+                    <div class="author"><a href="dev_title.html">작가</a></div>
+                </div>
+            </div>
         </div>
         <!--소설-->
         <div class="kinds">
-            <img src="kinds_img/pngegg.png" class="kinds_img">
+            <img src="kinds_img/kinds_novel.png" class="kinds_img">
             <div class="style">소설</div>
         </div>
-        <div>
-        <div class="listInner"style="background-color: coral;">
-            <a><span class="country">소설소설</span></a>
-            <span class="city">작가</span>
+        <div class="novel">
+        <div class="listInner">
+            <div class="background" style="background-color:coral;">
+                <a href="list.html"><img src="kinds_img/kinds_novel.png"class="id_img"></a>
+                <div class="title"><a href="list.html">소설소설소설</a></div>
+                <div class="author"><a href="dev_title.html">작가</a></div>
+            </div>
         </div>
-    </div>
     <script src="slide.js"></script>
 </body>
 </html>

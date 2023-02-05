@@ -1,37 +1,30 @@
-.home_name{
-    font-size: 100px;
+.profile_img{
+    width: 180px;
+    height: 180px;
+    border: 3px solid rgb(236, 236, 236);
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+.profile_name{
     font-weight: bold;
-    border-bottom:5px solid black;
+    font-size: 50px;
 }
-.icon{
-    width: 90px;
-    height: 90px;
+html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffff 80%,#ffa02f);
 }
-.searchBox{
-    float: right;
-}
-.button{
-    width: 50px;
-    height: 30px;
-}
-.kinds_img{
-    width: 35px;
-    height: 35px;
-}
-.kinds{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    font-size: 25px;
+.ex{
     font-weight: bold;
-    margin-top: 5px;
-}
-.listInner{
-    width: 53%;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
 }
 .background{
     width: 170px;
     height: 210px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 20px;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -46,10 +39,6 @@
     height: 130px;
     background-color: #ffff;
     background-clip: content-box;
-}
-.manga{
-    display: grid;
-    grid-template-columns: auto 1fr;
 }
 .title{
     font-size: 20px;
@@ -66,23 +55,17 @@ a{
     color: black;
     text-decoration-line: none;
 }
+.home{
+    width: 30px;
+    height: 30px;
+}
 @media(max-width:800px){
-    .country{
-        font-size: 30px;
-        text-decoration: none;
-
-        font-weight: bold;
+    .profile_img{
+        width: 120px;
+        height: 120px;
     }
-    .city{
-        text-decoration: none;
-        font-weight: bold;
-    }
-    .home_name{
-        font-size: 55px;
-    }
-    .text{
-        margin-top: 9%;
-        text-align: left;
+    .profile_name{
+        font-size: 40px;
     }
     .background{
         width: 150px;

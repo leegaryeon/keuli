@@ -9,7 +9,7 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 30%;
     height: auto;
     }
     .title{
@@ -30,4 +30,9 @@ h1{
     }
     strong{
         font-size: 50px;
+    }
+    @media(max-width:800px){
+        .center{
+            width: 80%;
+        }
     }
