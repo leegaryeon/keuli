@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin: 0;
+            padding: 10px;
+            padding-right: 0;
+            width: 350px;
+            font-size: 40px;
+        }
+        .list_title{
+            display: grid;
+            grid-template-columns: auto 1fr;
+            border-bottom:5px solid black;
+        }
+        dl{
+            font-size: 50px;
+            text-align: center;
+            text-decoration-line: none;
+        }
+        a{
+            text-decoration-line: none;
+            color: black;
+        }
+        .home{
+            width: 30px;
+            height: 30px;
+        }
+        .id_img{/*이미지 크기 조절하기*/
+            width: 100px;
+            height: 100px;
+        }
+        html{
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#ffff 80%,#ffa02f);
+        }
+        @media(max-width:800px){
+            h1{
+                font-size: 33px;
+                width: 290px;
+                height: 50px;
+                padding: 0;
+                padding-top:30px;
+                font-weight: bold;
+            }
+            .id_home{
+             margin-top: 100px;   
+            }
+            html{
+                background: linear-gradient(#ffff 80%,#ffa02f);
+            }
+        }
+    </style>
+    <link rel="shortcut icon" type="image/x-icon" href="../icon/icon.ico">
+</head>
+<body>
+    <a href="../index.html"><img src="../icon/home icon.png"class="home"></a>
+    <div class="list_title">
+        <h1>람큐의 만화 리스트</h1>
+        <a href="RamQ_profile.html"><img src="mangaprofile_img/람큐의 프로필.png"width=100px height="100px"class="id_img"></a>
+    </div>
+    <dl>
+        <li>
+            <strong><a href="cartoon_1.html">1화</a></strong>
+        </li>
+        <li>
+            <strong><a href="cartoon_2.html">2화</a></strong>
+        </li>
+        <li>
+            <strong><a href="cartoon_3.html">3화</a></strong>
+        </li>
+        <li>
+            <strong><a href="cartoon_4.html">4화</a></strong>
+        </li>
+        <li>
+            <strong><a href="cartoon_5.html">5화</a></strong>
+        </li>
+        <li>
+            <strong><a href="cartoon_6.html">6화</a></strong>
+        </li>
+        <li>
+            <strong><a href="cartoon_7.html">7화</a></strong>
+        </li>
+        <li>
+            <strong><a href="cartoon_8.html">8화</a></strong>
+        </li>
+    </dl>
+</body>
+</html>
