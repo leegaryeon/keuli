@@ -119,12 +119,12 @@ a{
     .ani{
         width: 55px;
         height: 55px;
-        margin-left: 100px;
+        margin-left: 50px;
         margin-top: 10px;
     }
     @keyframes box_ani{
         from{
-            margin-left: 100px;
+            margin-left: 50px;
         }
         to{
             margin-left: 155px;
