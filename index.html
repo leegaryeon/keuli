@@ -12,13 +12,14 @@
     <meta proerty="og:type" content="website">
     <meta property="og:image" content="slide/test.png">
     <meta property="og:description" content="모든 종류가 있는 홈화면!">
+    <link rel="shortcut icon" type="image/x-icon" href="icon/icon.ico">
     <title>home</title>
-    <style>
-
-    </style>
 </head>
 <body>
     <div class="home_name">Home</div>
+    <img src="profile_img/애니메이션.png" class="ani">
+    <div></div>
+    <!--슬라이드-->
     <div class="slide">
         <div class="slider_item"><img src="slide/test.png" class="slide_img"></div><!--이미지 크기가 스크린크기와 같다면 잘 움직인다.만약 그렇지안하면 버그가 날것-->
         <div class="slider_item"></div>
@@ -28,10 +29,13 @@
         <div class="slider_prev_button slide_button">◀</div>
         <div class="slider_next_button slide_button">▶</div>
     </div>
+
+    <!--검색-->
     <div class="searchBox">
         <input type="text" id="search"onkeyup="filter()"placeholder="검색어를 입력하세요">
         <input type="button" value="검색">
     </div>
+
     <div class="text">
         <!--만화-->
         <div class="kinds">
@@ -41,16 +45,16 @@
         <div class="manga">
             <div class="listInner">
                 <div class="background" style="background-color:#ffa02f;">
-                    <a href="list.html"><img src="profile_img/람큐의 프로필.png"class="id_img"></a>
-                    <div class="title"><a href="list.html">람큐의 만화</a></div>
-                    <div class="author"><a href="dev_title.html">람큐</a></div>
+                    <a href="RamQ/list.html"><img src="RamQ/mangaprofile_img/람큐의 프로필.png"class="id_img"></a>
+                    <div class="title"><a href="RamQ/list.html">람큐의 만화</a></div>
+                    <div class="author"><a href="RamQ/RamQ_profile.html">람큐</a></div>
                 </div>
             </div>
             <div class="listInner">
-                <div class="background" style="background-color:#ffb053;">
-                    <a href="list.html"><img src="id/fkazb.png"class="id_img"></a>
-                    <div class="title"><a href="list.html">제목제목제목</a></div>
-                    <div class="author"><a href="dev_title.html">작가</a></div>
+                <div class="background" style="background-color:#0080e7">
+                    <a href="RamQ/list.html"><img src="profile_img/fkazb.png"class="id_img"></a>
+                    <div class="title"><a href="RamQ/list.html">제목제목제목</a></div>
+                    <div class="author"><a href="nayeon.html">(*^▽^)/★*☆♪</a></div>
                 </div>
             </div>
         </div>
@@ -61,10 +65,10 @@
         </div>
         <div class="novel">
         <div class="listInner">
-            <div class="background" style="background-color:coral;">
-                <a href="list.html"><img src="kinds_img/kinds_novel.png"class="id_img"></a>
-                <div class="title"><a href="list.html">소설소설소설</a></div>
-                <div class="author"><a href="dev_title.html">작가</a></div>
+            <div class="background" style="background-color:#04aed8">
+                <a href="RamQ/list.html"><img src="kinds_img/kinds_novel.png"class="id_img"></a>
+                <div class="title"><a href="RamQ/list.html">소설소설소설</a></div>
+                <div class="author"><a href="moon_rabbit.html">달토끼</a></div>
             </div>
         </div>
     <script src="slide.js"></script>
