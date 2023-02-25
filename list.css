@@ -1,0 +1,46 @@
+h1{
+    margin: 0;
+    padding: 10px;
+    padding-right: 0;
+    width: auto;
+    font-size: 40px;
+}
+.list_title{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border-bottom:5px solid black;
+}
+dl{
+    font-size: 50px;
+    text-align: center;
+    text-decoration-line: none;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+.home{
+    width: 30px;
+    height: 30px;
+}
+.id_img{/*이미지 크기 조절하기*/
+    width: 100px;
+    height: 100px;
+}
+.id_img{/*이미지 크기 조절하기*/
+    width: 100px;
+    height: 100px;
+}
+@media(max-width:800px){
+    h1{
+        font-size: 33px;
+        width: 290px;
+        height: 50px;
+        padding: 0;
+        padding-top:30px;
+        font-weight: bold;
+    }
+    .id_home{
+     margin-top: 100px;   
+    }
+}

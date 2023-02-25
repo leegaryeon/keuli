@@ -1,0 +1,42 @@
+*{/*'*'=모든 선택자*/
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dark{
+    transition: .2s;
+    height: 100%;
+}
+.light .toggle .ball{
+    background: #151d2a;
+}
+input{
+    display: none;
+}
+.light{
+    background: #fafafa;
+}
+.dark{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+.dark .toggle .bxs-moon{
+    color: #fafafa;
+}
+.toggle .bxs-moon{
+    font-size: 50px;
+}
+.dark .toggle .ball{
+    background: #fafafa;
+}
+.dark .home{
+    filter: invert(100%);
+}
+.dark .profile_name{
+    color: #fafafa;
+}
+.dark .ex{
+    color: #d8d8d8;
+}

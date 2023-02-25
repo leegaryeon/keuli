@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
     <link href="../cartoon.css"rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="icon/icon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../icon/icon.ico">
+    <link href="../cartoon_dark.css" rel="stylesheet">
 </head>
-<body>
-    <a href="list.html"><img src="../icon/home icon.png"width="30px"height="30px"></a>
+<body data-theme="light">
+    <input type="checkbox" id="toggle">
+    <label class="toggle" for="toggle">
+        <i class="bx bxs-moon" style="float: right; font-size: 30px;"></i>
+    </label>
+    <script src="../dark.js"></script>
+    <a href="list.html"><img src="../icon/home icon.png" class="home"></a>
     <div class="title">
         <h1>람큐의 만화</h1>
-        <a href="RamQ_profile.html"><img src="mangaprofile_img/람큐의 프로필.png"width=100px height="100px"></a>
+        <a href="RamQ_profile.html"><img src="../profile_img/람큐의 프로필.png"width=100px height="100px"></a>
     </div>
 <!--manga code-->
         <h2 style="text-align-last:center;">4화 일러스트</h2>   
@@ -22,7 +29,7 @@
         <img src="manga/4/manga4.jpg"class="center">
 <!--arrow code-->
     <div class="image">
-        <a href="cartoon_3.html"><img src="../icon/left.png"class="icon"></a>
+        <a href="cartoon_3.html"><img  alt="이미지 없음" src="../icon/left.png"class="icon"></a>
         <strong>4p</strong>
         <a href="cartoon_5.html"><img src="../icon/right.png"class="icon"></a>
     </div>

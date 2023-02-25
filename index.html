@@ -7,18 +7,26 @@
     <link rel="stylesheet"href="slide.css">
     <link rel="stylesheet"href="index.css">
     <script src="filter.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="index_dark.css">
+    <title>home</title>
+    <!--타이틀-->
     <meta property="og:title" content="홈화면">
     <meta property="og:url" content="https://leegaryeon.github.io/web/">
     <meta proerty="og:type" content="website">
     <meta property="og:image" content="slide/test.png">
     <meta property="og:description" content="모든 종류가 있는 홈화면!">
     <link rel="shortcut icon" type="image/x-icon" href="icon/icon.ico">
-    <title>home</title>
+    
 </head>
-<body>
+<body data-theme="light" style="overflow-y: initial;">
+    <input type="checkbox" id="toggle">
+    <label class="toggle" for="toggle">
+        <i class="bx bxs-moon" style="float: right; font-size: 30px;"></i>
+    </label>
+    <script src="dark.js"></script>
     <div class="home_name">Home</div>
     <img src="profile_img/애니메이션.png" class="ani">
-    <div></div>
     <!--슬라이드-->
     <div class="slide">
         <div class="slider_item"><img src="slide/test.png" class="slide_img"></div><!--이미지 크기가 스크린크기와 같다면 잘 움직인다.만약 그렇지안하면 버그가 날것-->
@@ -40,12 +48,12 @@
         <!--만화-->
         <div class="kinds">
             <img src="kinds_img/kinds_cartoon.png" class="kinds_img">
-            <div class="style_1">만화</div>
+            <div class="style">만화</div>
         </div>
         <div class="manga">
             <div class="listInner">
                 <div class="background" style="background-color:#ffa02f;">
-                    <a href="RamQ/list.html"><img src="RamQ/mangaprofile_img/람큐의 프로필.png"class="id_img"></a>
+                    <a href="RamQ/list.html"><img src="profile_img/람큐의 프로필.png"class="id_img"></a>
                     <div class="title"><a href="RamQ/list.html">람큐의 만화</a></div>
                     <div class="author"><a href="RamQ/RamQ_profile.html">람큐</a></div>
                 </div>

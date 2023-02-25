@@ -6,6 +6,7 @@
     -moz-border-radius: 100px;
     -khtml-border-radius: 100px;
     -webkit-border-radius: 100px;
+    background-color: #fafafa;
 }
 .profile_name{
     font-weight: bold;

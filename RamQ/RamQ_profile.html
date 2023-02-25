@@ -5,17 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../profile.css">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../profile_dark.css">
     <style>
         html{
             width: 100%;
             height: 100%;
             background: linear-gradient(#ffff 80%,#ffa02f);
         }
+        .dark{
+            background: linear-gradient(#151d2a 80%,#724813);
+        }
     </style>
     <link rel="shortcut icon" type="image/x-icon" href="../icon/icon.ico">
     <title>프로필</title>
 </head>
-<body>
+<body data-theme="light" style="overflow-y: initial;">
+    <input type="checkbox" id="toggle">
+    <label class="toggle" for="toggle">
+        <i class="bx bxs-moon" style="float: right; font-size: 30px;"></i>
+    </label>
+    <script src="../dark.js"></script>
     <a href="../index.html"><img src="../icon/home icon.png"class="home"></a>
     <div>&nbsp;</div>
     <img src="../profile_img/fkazb.png" class="profile_img">
@@ -24,7 +34,7 @@
     <!--<span class="ex instagram">인스타그램:<a href="https://www.instagram.com/jihunbag539/?igshid=OGQ2MjdiOTE%3D">인스타그램링크</a></span>-->
     <!--만화들-->
     <div class="background" style="background-color:#ffa02f;">
-        <a href="list.html"><img src="mangaprofile_img/람큐의 프로필.png"class="id_img"></a>
+        <a href="list.html"><img src="../profile_img/람큐의 프로필.png"class="id_img"></a>
         <div class="title"><a href="list.html">람큐의 만화</a></div>
         <div class="author"><a href="dev_title.html">람큐</a></div>
     </div>

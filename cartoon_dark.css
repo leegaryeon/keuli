@@ -1,0 +1,41 @@
+body{
+    transition: .2s;
+}
+.light .toggle .ball{
+    background: #151d2a;
+}
+#toggle{
+    display: none;
+}
+.light{
+    background: #fafafa;
+}
+.dark{
+    background: #0d121a;
+}
+.dark .toggle .bxs-moon{
+    color: #fafafa;
+}
+.toggle .bxs-moon{
+    font-size: 50px;
+}
+.dark .toggle .ball{
+    background: #fafafa;
+}
+.dark .home_name{
+    background-color: #0d121a;
+    color: #fafafa;
+}
+.dark .title{
+    color: #fafafa;
+    border-bottom:5px solid #fafafa;
+}
+.dark h2{
+    color: #fafafa;
+}
+.dark .image{
+    filter: invert(100%);
+}
+.dark .home{
+    filter: invert(100%);
+}

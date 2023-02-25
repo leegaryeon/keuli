@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        *{/*'*'=모든 선택자*/
+            margin: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            align-items: center;
+            justify-content: center;
+            transition: .2s;
+        }
+        .light .toggle .ball{
+            background: #151d2a;
+        }
+        input{
+            display: none;
+        }
+        .light{
+            background: #fafafa;
+        }
+        .dark{
+            background: #151d2a;
+        }
+        .dark .toggle .bxs-moon{
+            color: #fafafa;
+        }
+        .toggle .bxs-moon{
+            font-size: 50px;
+        }
+        .dark .toggle .ball{
+            background: #fafafa;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body data-theme="light">
+    <input type="checkbox" id="toggle"><!--'toggle'은 하나의 설정 값으로부터 다른값으로 전환하는것-->
+
+    <label class="toggle" for="toggle">
+        <i class="bx bxs-moon"></i>
+        <span class="ball"></span>
+    </label>
+    <a href="dark.html">test</a>
+    <script>
+        const body=document.querySelector("body");
+        const toggle=document.querySelector("#toggle");
+        const sunIcon=document.querySelector(".toggle .bxs-sun");
+        const moonIcon=document.querySelector(".toggle .bxs-moon");
+
+        toggle.addEventListener("change",()=>{
+            body.classList.toggle("dark");
+            //sunIcon.className=sunIcon.className=="bx bxs-sun"?"bx bxs-sun":"bx bxs-sun";
+            //moonIcon.className=moonIcon.className=="bx bxs-moon"?"bx bxs-moon":"bx bxs-moon";
+        });
+    </script>
+</body>
+</html>

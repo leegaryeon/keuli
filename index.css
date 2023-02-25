@@ -22,6 +22,7 @@
 .kinds_img{
     width: 35px;
     height: 35px;
+    font-size:40px;
 }
 .kinds{
     display: grid;
@@ -121,6 +122,18 @@ a{
         height: 55px;
         margin-left: 50px;
         margin-top: 10px;
+    }
+    @media(prefers-color-scheme:light){
+        body{
+            background-color: white;
+            color: black;
+        }
+    }
+    @media(prefers-color-scheme:dark){
+        body{
+            background-color: black;
+            color: white;
+        }
     }
     @keyframes box_ani{
         from{
