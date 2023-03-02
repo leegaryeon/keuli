@@ -123,18 +123,6 @@ a{
         margin-left: 50px;
         margin-top: 10px;
     }
-    @media(prefers-color-scheme:light){
-        body{
-            background-color: white;
-            color: black;
-        }
-    }
-    @media(prefers-color-scheme:dark){
-        body{
-            background-color: black;
-            color: white;
-        }
-    }
     @keyframes box_ani{
         from{
             margin-left: 50px;
