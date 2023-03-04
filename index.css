@@ -99,7 +99,6 @@ a{
     .country{
         font-size: 30px;
         text-decoration: none;
-
         font-weight: bold;
     }
     .city{
@@ -108,8 +107,7 @@ a{
     }
     .home_name{
         font-size: 55px;
-        margin-bottom: 10px;
-        height: 58px;
+        margin-bottom: 15px;
     }
     .text{
         margin-top: 9%;
