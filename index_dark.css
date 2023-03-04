@@ -55,21 +55,21 @@ body{
     .body .toggle .bxs-moon{
         color: #fafafa;
     }
-    .dark .toggle .ball{
+    .body .toggle .ball{
         background: #fafafa;
     }
-    .dark .home_name{
+    .body .home_name{
         background-color: #0d121a;
         color: #fafafa;
     }
-    .dark .kinds{
+    .body .kinds{
         color: #fafafa;
         /*filter: invert(100%);*/
     }
-    .dark .ani{
+    .body .ani{
         filter: invert(100%);
     }
-    .dark .kinds_img{
+    .body .kinds_img{
         filter: invert(100%);
     }
     }
