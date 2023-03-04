@@ -40,3 +40,29 @@ input{
 .dark .ex{
     color: #d8d8d8;
 }
+@media(prefers-color-scheme:dark){
+    body{
+        background: linear-gradient(#151d2a 80%,#724813);
+    }
+    body{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        transition: .2s;
+    }
+    body .toggle .bxs-moon{
+        color: #fafafa;
+    }
+    body .toggle .ball{
+        background: #fafafa;
+    }
+    body .home{
+        filter: invert(100%);
+    }
+    body .profile_name{
+        color: #fafafa;
+    }
+    body .ex{
+        color: #d8d8d8;
+    }
+}

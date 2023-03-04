@@ -10,14 +10,14 @@ body{
 .light{
     background: #fafafa;
 }
+.toggle .bxs-moon{
+    font-size: 50px;
+}
 .dark{
     background: #0d121a;
 }
 .dark .toggle .bxs-moon{
     color: #fafafa;
-}
-.toggle .bxs-moon{
-    font-size: 50px;
 }
 .dark .toggle .ball{
     background: #fafafa;
@@ -38,4 +38,32 @@ body{
 }
 .dark .home{
     filter: invert(100%);
+}
+@media(prefers-color-scheme:dark){
+    body{
+        background: #0d121a;
+    }
+    body .toggle .bxs-moon{
+        color: #fafafa;
+    }
+    body .toggle .ball{
+        background: #fafafa;
+    }
+    body .home_name{
+        background-color: #0d121a;
+        color: #fafafa;
+    }
+    body .title{
+        color: #fafafa;
+        border-bottom:5px solid #fafafa;
+    }
+    body h2{
+        color: #fafafa;
+    }
+    body .image{
+        filter: invert(100%);
+    }
+    body .home{
+        filter: invert(100%);
+    }
 }

@@ -45,3 +45,30 @@ dl{
 .dark .home{
     filter: invert(100%);
 }
+@media(prefers-color-scheme:light){
+    body{
+        background-color: white;
+        color: black;
+    }
+}
+@media(prefers-color-scheme:dark){
+    .dark .toggle .ball{
+        background: #fafafa;
+    }
+    .dark h1{
+        color: #fafafa;
+    }
+    .dark .list_title{
+        border-bottom:5px solid #fafafa;
+    }
+    .dark a{
+        color: #fafafa;
+    }
+    .dark .home{
+        filter: invert(100%);
+    }
+    .dark .toggle .bxs-moon{
+        color: #fafafa;
+    }
+
+}
