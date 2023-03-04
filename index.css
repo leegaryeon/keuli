@@ -95,18 +95,9 @@ a{
     }
 }
 @media(max-width:800px){
-    .title{
-        font-size: 30px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    .author{
-        text-decoration: none;
-        font-weight: bold;
-    }
     .home_name{
         font-size: 55px;
-        margin-bottom: 100px;
+        padding-bottom: 5px;
     }
     .text{
         margin-top: 9%;
