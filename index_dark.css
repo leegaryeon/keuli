@@ -41,3 +41,35 @@ body{
 .dark .kinds_img{
     filter: invert(100%);
 }
+@media(prefers-color-scheme:light){
+        body{
+            background-color: white;
+            color: black;
+        }
+    }
+@media(prefers-color-scheme:dark){
+    body{
+        background-color: black;
+        color: white;
+    }
+    .body .toggle .bxs-moon{
+        color: #fafafa;
+    }
+    .dark .toggle .ball{
+        background: #fafafa;
+    }
+    .dark .home_name{
+        background-color: #0d121a;
+        color: #fafafa;
+    }
+    .dark .kinds{
+        color: #fafafa;
+        /*filter: invert(100%);*/
+    }
+    .dark .ani{
+        filter: invert(100%);
+    }
+    .dark .kinds_img{
+        filter: invert(100%);
+    }
+    }
