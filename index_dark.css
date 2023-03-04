@@ -49,7 +49,7 @@ body{
 }
 @media(prefers-color-scheme:dark){
     body{
-        background-color: black;
+        background: #0d121a;
         color: white;
     }
     body .toggle .bxs-moon{
