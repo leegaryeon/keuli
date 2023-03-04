@@ -42,34 +42,34 @@ body{
     filter: invert(100%);
 }
 @media(prefers-color-scheme:light){
-        body{
-            background-color: white;
-            color: black;
-        }
+    body{
+        background-color: white;
+        color: black;
     }
+}
 @media(prefers-color-scheme:dark){
     body{
         background-color: black;
         color: white;
     }
-    .body .toggle .bxs-moon{
+    body .toggle .bxs-moon{
         color: #fafafa;
     }
-    .body .toggle .ball{
+    body .toggle .ball{
         background: #fafafa;
     }
-    .body .home_name{
+    body .home_name{
         background-color: #0d121a;
         color: #fafafa;
     }
-    .body .kinds{
+    body .kinds{
         color: #fafafa;
         /*filter: invert(100%);*/
     }
-    .body .ani{
+    body .ani{
         filter: invert(100%);
     }
-    .body .kinds_img{
+    body .kinds_img{
         filter: invert(100%);
     }
-    }
+}
