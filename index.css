@@ -96,12 +96,12 @@ a{
     }
 }
 @media(max-width:800px){
-    .country{
+    .title{
         font-size: 30px;
         text-decoration: none;
         font-weight: bold;
     }
-    .city{
+    .author{
         text-decoration: none;
         font-weight: bold;
     }
