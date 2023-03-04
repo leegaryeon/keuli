@@ -52,22 +52,22 @@ dl{
     }
 }
 @media(prefers-color-scheme:dark){
-    .dark .toggle .ball{
+    body .toggle .ball{
         background: #fafafa;
     }
-    .dark h1{
+    body h1{
         color: #fafafa;
     }
-    .dark .list_title{
+    body .list_title{
         border-bottom:5px solid #fafafa;
     }
-    .dark a{
+    body a{
         color: #fafafa;
     }
-    .dark .home{
+    body .home{
         filter: invert(100%);
     }
-    .dark .toggle .bxs-moon{
+    body .toggle .bxs-moon{
         color: #fafafa;
     }
 
