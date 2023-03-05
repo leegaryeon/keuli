@@ -52,6 +52,9 @@ dl{
     }
 }
 @media(prefers-color-scheme:dark){
+    body{
+        background: #0d121a;
+    }
     body .toggle .ball{
         background: #fafafa;
     }

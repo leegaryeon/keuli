@@ -6,6 +6,7 @@
 .dark{
     transition: .2s;
     height: 100%;
+    background: #0d121a;
 }
 .light .toggle .ball{
     background: #151d2a;
@@ -42,7 +43,7 @@ input{
 }
 @media(prefers-color-scheme:dark){
     body{
-        background: linear-gradient(#151d2a 80%,#724813);
+        background: #0d121a;
     }
     body{
         height: 100%;
