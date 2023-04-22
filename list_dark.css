@@ -2,12 +2,10 @@
     margin: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
     transition: .2s;
 }
 .light .toggle .ball{
-    background: #151d2a;
+    background: #0d121a;
 }
 input{
     display: none;
@@ -17,7 +15,7 @@ input{
 }
 .dark{
     height: 100%;
-    transition: .2s;
+    background: #0d121a;
 }
 .dark .toggle .bxs-moon{
     color: #fafafa;
