@@ -2,9 +2,10 @@
     margin: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: .3s;
 }
 .dark{
-    transition: .2s;
+    /*transition: .2s;*/
     height: 100%;
     background: #0d121a;
 }
