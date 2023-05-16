@@ -1,4 +1,4 @@
-*{/*'*'=모든 선택자*/
+*{/* *=모든 선택자*/
     margin: 0;
     margin: 0;
     box-sizing: border-box;
@@ -63,8 +63,8 @@ body{
         color: #fafafa;
     }
     body .kinds{
-        color: #fafafa;
         filter: invert(100%);
+        color: #fafafa;
     }
     body .ani{
         filter: invert(100%);
