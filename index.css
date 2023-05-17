@@ -86,6 +86,10 @@ a{
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
+.ex_img{
+    width: 100px;
+    height: 100px;
+}
 @keyframes box_ani{
     from{
         margin-left: 170px;
